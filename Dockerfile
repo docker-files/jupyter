@@ -6,6 +6,8 @@ RUN apt-get -y update && \
     apt-get -y upgrade && \
     apt-get -y install python3 && \
     apt-get -y install python3-pip && \
+    apt-get install -y python3-pandas && \
+    pip3 install matplotlib && \	
     pip3 install jupyter
 
 WORKDIR /srv/notebooks/
