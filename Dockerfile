@@ -10,6 +10,6 @@ RUN apt-get -y update && \
 
 WORKDIR /srv/notebooks/
 
-EXPOSE 8000
+EXPOSE 8888
 
 CMD ["jupyter", "notebook", "--port=8888", "--no-browser", "--ip=*"]
