@@ -12,4 +12,4 @@ WORKDIR /srv/notebooks/
 
 EXPOSE 8000
 
-CMD ["jupyter", "notebook", "--port=8888", "--no-browser", "--ip=0.0.0.0"]
+CMD ["jupyter", "notebook", "--port=8888", "--no-browser", "--ip=*"]
